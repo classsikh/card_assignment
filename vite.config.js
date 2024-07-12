@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base:"/BasketballPlayerCard/",
   plugins: [react()],
+  base: "/card_assignment",
   server: {
     port: 3000,
   }
