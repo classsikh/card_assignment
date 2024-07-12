@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.header{
+    color:white;
+    text-align: center;
+}
+.container-header{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
